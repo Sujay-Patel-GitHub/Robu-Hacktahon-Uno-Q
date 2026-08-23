@@ -41,7 +41,7 @@ The system uses real-time proximity-sensing microcontroller logic to dynamically
 The schematic below outlines the electrical connections between the sensor array, Arduino UNO Q, and the 8-channel relay board:
 
 <p align="center">
-  <img src="src/Sandhi_Cement_Smart_Lighting_System/schematic.png" alt="Circuit Schematic Diagram" width="85%">
+  <img src="media/images/circuit_schematic.png" alt="Circuit Schematic Diagram" width="85%">
 </p>
 
 ---
