@@ -38,9 +38,11 @@ The system uses real-time proximity-sensing microcontroller logic to dynamically
 ---
 
 ## ⚡ Circuit Connection Diagram
-The horizontal schematic lays out the flow of power and signals across components:
+The schematic below outlines the electrical connections between the sensor array, Arduino UNO Q, and the 8-channel relay board:
 
-![Landscape Schematic](src/Sandhi_Cement_Smart_Lighting_System/schematic.png)
+<p align="center">
+  <img src="src/Sandhi_Cement_Smart_Lighting_System/schematic.png" alt="Circuit Schematic Diagram" width="85%">
+</p>
 
 ---
 
@@ -50,7 +52,7 @@ The horizontal schematic lays out the flow of power and signals across component
 ---
 
 ## 📸 Media & Gallery
-Here are some snapshots of the hardware and assembly process:
+Here are snapshots of the hardware and assembly process:
 
 | Component Assembly | MOSFET/Wiring Conduits | Soldering & Installation |
 |---|---|---|
@@ -59,6 +61,10 @@ Here are some snapshots of the hardware and assembly process:
 ---
 
 ## 🎥 Project Demonstration Video
-Watch the real-time human tracking and spotlight switching demo in action:
+Live demonstration of real-time human tracking and dynamic spotlight switching:
 
-<video src="media/videos/Lighting Human Detection Video.mp4" controls width="100%"></video>
+<p align="center">
+  <img src="media/videos/demo_preview.gif" alt="Live Demo Animation" width="70%">
+</p>
+
+> 📹 **[Click here to view / download full MP4 Video: `Lighting Human Detection Video.mp4`](media/videos/Lighting%20Human%20Detection%20Video.mp4)**
