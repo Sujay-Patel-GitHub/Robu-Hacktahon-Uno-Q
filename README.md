@@ -19,7 +19,7 @@ The system uses real-time proximity-sensing microcontroller logic to dynamically
 |---|---|---|---|---|---|
 | **Electronics** | **Arduino® UNO™ Q** | Main hybrid controller (STM32 MCU + Qualcomm MPU) | 1 | ₹5,999 | ₹5,999 |
 | **Electronics** | **Sharp GP2Y0A02YK0F** | Analog IR Distance Sensors (20cm - 150cm range) | 4 | ₹599 | ₹2,396 |
-| **Electronics** | **8-Channel Relay Board** | 5V Optocoupler-isolated relay switching board | 1 | ₹450 | ₹450 |
+| **Electronics** | **8-Channel Relay Module** | 5V Optocoupler-isolated relay switching board | 1 | ₹450 | ₹450 |
 | **Electronics** | **LM2596 Buck Converter** | Step-down regulator (12V to 5V for relays) | 1 | ₹120 | ₹120 |
 | **Wiring** | **12V 2A DC Adapter** | FR-Grade power supply for controller & relays | 1 | ₹350 | ₹350 |
 | **Wiring** | **Solid Copper Wires** | Red/Black/Yellow/Blue connection wire lot (10m each) | 1 | ₹250 | ₹250 |
@@ -55,3 +55,10 @@ Here are some snapshots of the hardware and assembly process:
 | Component Assembly | MOSFET/Wiring Conduits | Soldering & Installation |
 |---|---|---|
 | ![PCB](media/images/PCB.jpg) | ![Wiring](media/images/WhatsApp%20Image%202024-07-11%20at%2000.46.32_398825d0.jpg) | ![Soldering](media/images/soldering.jpg) |
+
+---
+
+## 🎥 Project Demonstration Video
+Watch the real-time human tracking and spotlight switching demo in action:
+
+<video src="media/videos/Lighting Human Detection Video.mp4" controls width="100%"></video>
