@@ -1,0 +1,299 @@
+<mxfile host="Electron" modified="2026-08-23T12:00:00.000Z" agent="Antigravity" version="21.0.0" type="device">
+  <diagram id="kataria-arcade-schematic" name="Page-1">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" adaptiveColors="auto" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Schematic Border & Title Block (Standard Sheet A3) -->
+        <mxCell id="border" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1614" height="1129" as="geometry" />
+        </mxCell>
+        <mxCell id="title_block" value="&lt;b&gt;KATARIA ARCADE - SMART LIGHTING CONTROLLER&lt;/b&gt;&lt;br&gt;Document Number: KA-SL-001&lt;br&gt;Date: 2026-08-23 | Sheet: 1 of 1&lt;br&gt;Author: Kataria Gallery Installer" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;align=left;spacingLeft=10;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1030" width="400" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== COMPONENTS ==================== -->
+
+        <!-- U1: Arduino UNO Q (Center) -->
+        <mxCell id="u1_uno" value="&lt;b&gt;U1&lt;/b&gt;&lt;br&gt;ARDUINO® UNO™ Q" style="swimlane;startSize=40;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;html=1;fontSize=12;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="220" height="420" as="geometry" />
+        </mxCell>
+        
+        <!-- Analog Input Pins (Left side of Arduino box) -->
+        <mxCell id="u1_pin_a5" value="A5" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="10" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u1_pin_a4" value="A4" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="10" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u1_pin_a3" value="A3" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="10" y="120" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u1_pin_a2" value="A2" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="10" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        
+        <!-- Power Pins (Left side of Arduino box) -->
+        <mxCell id="u1_pin_5v" value="5V" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#ff0000;" vertex="1" parent="u1_uno">
+          <mxGeometry x="10" y="220" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u1_pin_gnd" value="GND" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="10" y="250" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Digital Pins (Right side of Arduino box) -->
+        <mxCell id="u1_pin_d9" value="D9" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="150" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u1_pin_d10" value="D10" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="150" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u1_pin_d7" value="D7" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="150" y="120" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u1_pin_d3" value="D3" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="150" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u1_pin_d12" value="D12" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="150" y="180" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u1_pin_d13" value="D13" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="150" y="210" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u1_pin_d5" value="D5" style="text;html=1;align=right;verticalAlign=middle;fontSize=11;fontStyle=1;" vertex="1" parent="u1_uno">
+          <mxGeometry x="150" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- S1: Sensor 1 (Left) -->
+        <mxCell id="s1_sensor" value="&lt;b&gt;S1&lt;/b&gt;&lt;br&gt;GP2Y0A02YK0F" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_out" value="OUT" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="s1_sensor">
+          <mxGeometry x="70" y="20" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- S2: Sensor 2 (Left) -->
+        <mxCell id="s2_sensor" value="&lt;b&gt;S2&lt;/b&gt;&lt;br&gt;GP2Y0A02YK0F" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s2_out" value="OUT" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="s2_sensor">
+          <mxGeometry x="70" y="20" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- S3: Sensor 3 (Left) -->
+        <mxCell id="s3_sensor" value="&lt;b&gt;S3&lt;/b&gt;&lt;br&gt;GP2Y0A02YK0F" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3_out" value="OUT" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="s3_sensor">
+          <mxGeometry x="70" y="20" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- S4: Sensor 4 (Left) -->
+        <mxCell id="s4_sensor" value="&lt;b&gt;S4&lt;/b&gt;&lt;br&gt;GP2Y0A02YK0F" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s4_out" value="OUT" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="s4_sensor">
+          <mxGeometry x="70" y="20" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- RY1: 8-Channel Relay Module (Right) -->
+        <mxCell id="ry1_relay" value="&lt;b&gt;RY1&lt;/b&gt;&lt;br&gt;5V RELAY BOARD" style="swimlane;startSize=40;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;html=1;fontSize=11;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="200" width="180" height="420" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="ry1_in1" value="IN1" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="10" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_in2" value="IN2" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="10" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_in3" value="IN3" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="10" y="120" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_in4" value="IN4" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="10" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_in5" value="IN5" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="10" y="180" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_in6" value="IN6" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="10" y="210" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_in7" value="IN7" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="10" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Relay Output Contacts (Right side of relay box) -->
+        <mxCell id="ry1_out1" value="OUT1" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="110" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_out2" value="OUT2" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="110" y="90" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_out3" value="OUT3" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="110" y="120" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_out4" value="OUT4" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="110" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_out5" value="OUT5" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="110" y="180" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_out6" value="OUT6" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="110" y="210" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ry1_out7" value="OUT7" style="text;html=1;align=right;verticalAlign=middle;fontSize=9;" vertex="1" parent="ry1_relay">
+          <mxGeometry x="110" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+
+
+        <!-- ==================== ELECTRICAL SYMBOLS ==================== -->
+
+        <!-- Standard Ground Symbols (GND) -->
+        <mxCell id="gnd1" value="" style="shape=mxgraph.electrical.signal_sources.signal_ground;pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1.5;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gnd2" value="" style="shape=mxgraph.electrical.signal_sources.signal_ground;pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1.5;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gnd3" value="" style="shape=mxgraph.electrical.signal_sources.signal_ground;pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1.5;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gnd4" value="" style="shape=mxgraph.electrical.signal_sources.signal_ground;pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1.5;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="550" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gnd_uno" value="" style="shape=mxgraph.electrical.signal_sources.signal_ground;pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1.5;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gnd_relay" value="" style="shape=mxgraph.electrical.signal_sources.signal_ground;pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1.5;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="940" y="550" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Standard VCC/VDD Power Flags (+5V) -->
+        <mxCell id="vcc1" value="+5V" style="shape=mxgraph.electrical.signal_sources.vdd1;pointerEvents=1;verticalLabelPosition=top;shadow=0;dashed=0;align=center;html=1;verticalAlign=bottom;strokeWidth=1.5;strokeColor=#ff0000;fontColor=#ff0000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="145" y="170" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vcc2" value="+5V" style="shape=mxgraph.electrical.signal_sources.vdd1;pointerEvents=1;verticalLabelPosition=top;shadow=0;dashed=0;align=center;html=1;verticalAlign=bottom;strokeWidth=1.5;strokeColor=#ff0000;fontColor=#ff0000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="145" y="270" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vcc3" value="+5V" style="shape=mxgraph.electrical.signal_sources.vdd1;pointerEvents=1;verticalLabelPosition=top;shadow=0;dashed=0;align=center;html=1;verticalAlign=bottom;strokeWidth=1.5;strokeColor=#ff0000;fontColor=#ff0000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="145" y="370" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vcc4" value="+5V" style="shape=mxgraph.electrical.signal_sources.vdd1;pointerEvents=1;verticalLabelPosition=top;shadow=0;dashed=0;align=center;html=1;verticalAlign=bottom;strokeWidth=1.5;strokeColor=#ff0000;fontColor=#ff0000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="145" y="470" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vcc_uno" value="+5V" style="shape=mxgraph.electrical.signal_sources.vdd1;pointerEvents=1;verticalLabelPosition=top;shadow=0;dashed=0;align=center;html=1;verticalAlign=bottom;strokeWidth=1.5;strokeColor=#ff0000;fontColor=#ff0000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="505" y="400" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vcc_relay" value="+5V" style="shape=mxgraph.electrical.signal_sources.vdd1;pointerEvents=1;verticalLabelPosition=top;shadow=0;dashed=0;align=center;html=1;verticalAlign=bottom;strokeWidth=1.5;strokeColor=#ff0000;fontColor=#ff0000;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="945" y="490" width="20" height="30" as="geometry" />
+        </mxCell>
+
+
+        <!-- ==================== WIRING NETS ==================== -->
+
+        <!-- Local VCC connections -->
+        <mxCell id="wire_vcc1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#ff0000;strokeWidth=1;" edge="1" parent="1" source="vcc1" target="s1_sensor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_vcc2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#ff0000;strokeWidth=1;" edge="1" parent="1" source="vcc2" target="s2_sensor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_vcc3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#ff0000;strokeWidth=1;" edge="1" parent="1" source="vcc3" target="s3_sensor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_vcc4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#ff0000;strokeWidth=1;" edge="1" parent="1" source="vcc4" target="s4_sensor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_vcc_uno" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#ff0000;strokeWidth=1;" edge="1" parent="1" source="vcc_uno" target="u1_pin_5v">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_vcc_relay" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#ff0000;strokeWidth=1;" edge="1" parent="1" source="vcc_relay" target="ry1_relay">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Local GND connections -->
+        <mxCell id="wire_gnd1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="gnd1" target="s1_sensor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_gnd2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="gnd2" target="s2_sensor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_gnd3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="gnd3" target="s3_sensor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_gnd4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="gnd4" target="s4_sensor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_gnd_uno" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="gnd_uno" target="u1_pin_gnd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_gnd_relay" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="gnd_relay" target="ry1_relay">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Signal Wires: Sensors to Analog Input Net Ports -->
+        <mxCell id="net_s1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#06b6d4;strokeWidth=1.5;" edge="1" parent="1" source="s1_sensor" target="u1_pin_a5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_s2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#06b6d4;strokeWidth=1.5;" edge="1" parent="1" source="s2_sensor" target="u1_pin_a4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_s3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#06b6d4;strokeWidth=1.5;" edge="1" parent="1" source="s3_sensor" target="u1_pin_a3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_s4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#06b6d4;strokeWidth=1.5;" edge="1" parent="1" source="s4_sensor" target="u1_pin_a2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Signal Wires: MCU GPIO to Relay INs -->
+        <mxCell id="net_r1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#020617;strokeWidth=1.2;" edge="1" parent="1" source="u1_pin_d9" target="ry1_in1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_r2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#020617;strokeWidth=1.2;" edge="1" parent="1" source="u1_pin_d10" target="ry1_in2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_r3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#020617;strokeWidth=1.2;" edge="1" parent="1" source="u1_pin_d7" target="ry1_in3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_r4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#020617;strokeWidth=1.2;" edge="1" parent="1" source="u1_pin_d3" target="ry1_in4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_r5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#020617;strokeWidth=1.2;" edge="1" parent="1" source="u1_pin_d12" target="ry1_in5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_r6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#020617;strokeWidth=1.2;" edge="1" parent="1" source="u1_pin_d13" target="ry1_in6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_r7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#020617;strokeWidth=1.2;" edge="1" parent="1" source="u1_pin_d5" target="ry1_in7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Relay Outputs to High-Voltage Switched Spotlights -->
+        <mxCell id="net_l1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#82b366;strokeWidth=1.5;" edge="1" parent="1" source="ry1_out1" target="light1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_l2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#82b366;strokeWidth=1.5;" edge="1" parent="1" source="ry1_out2" target="light2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_l3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#82b366;strokeWidth=1.5;" edge="1" parent="1" source="ry1_out3" target="light3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_l4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#82b366;strokeWidth=1.5;" edge="1" parent="1" source="ry1_out4" target="light4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_l5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#82b366;strokeWidth=1.5;" edge="1" parent="1" source="ry1_out5" target="light5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_l6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#82b366;strokeWidth=1.5;" edge="1" parent="1" source="ry1_out6" target="light6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="net_l7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;fontSize=10;strokeColor=#82b366;strokeWidth=1.5;" edge="1" parent="1" source="ry1_out7" target="light7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
