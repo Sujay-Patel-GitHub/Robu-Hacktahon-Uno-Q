@@ -51,6 +51,26 @@ The schematic below outlines the electrical connections between the sensor array
 
 ---
 
+---
+
+## 🎨 Deployed Gallery Art Exhibits & Tracking Zones
+
+The **Sandhi Lumina** system directly controls illumination for 9 distinct real-world architectural art installations across 4 physical zones inside the **Sandhi Cement Art Gallery** (Kataria Arcade, 10th Floor):
+
+| Exhibit Title | Tracking Zone & Spotlight | Visual Preview | Description |
+|---|---|---|---|
+| **Ahmedabad Heritage** | Zone 1 (Spotlight 1 & 2) | <img src="media/art_exhibits/art_ahmedabad.jpg" width="220"> | Historic urban landscape and heritage monuments. |
+| **Alok Sanghi Vision Wall** | Zone 1 (Spotlight 2) | <img src="media/art_exhibits/art_alok_sanghi.jpg" width="220"> | Corporate leadership portrait celebrating foundational vision. |
+| **Delhi Capital Artistry** | Zone 2 (Spotlight 3 & 4) | <img src="media/art_exhibits/art_delhi.jpg" width="220"> | Panoramic tribute to national capital monuments. |
+| **Dubai Modernity** | Zone 2 (Spotlight 4) | <img src="media/art_exhibits/art_dubai.jpg" width="220"> | Futuristic structural architecture and global skyline. |
+| **Hyderabad Charminar** | Zone 3 (Spotlight 5 & 6) | <img src="media/art_exhibits/art_hyderabad.jpg" width="220"> | Deccani architecture and traditional heritage tapestry. |
+| **Indiana Landmark** | Zone 3 (Spotlight 6) | <img src="media/art_exhibits/art_indiana.jpg" width="220"> | International industrial and architectural structural motifs. |
+| **Kutch White Desert** | Zone 4 (Spotlight 7) | <img src="media/art_exhibits/art_kutch.jpg" width="220"> | Iconic White Rann topography and cultural folk textures. |
+| **New York Metropolis** | Zone 4 (Spotlight 7) | <img src="media/art_exhibits/art_new_york.jpg" width="220"> | Contemporary metropolitan skyline and skyscraper grid. |
+| **Ooty Nilgiri Hills** | Zone 4 (Spotlight 7) | <img src="media/art_exhibits/art_ooty.jpg" width="220"> | Ecological landscape highlighting sustainable nature. |
+
+---
+
 ## 📸 Media & Gallery
 Here are snapshots of the hardware and assembly process:
 
